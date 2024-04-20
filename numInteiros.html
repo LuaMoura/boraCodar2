@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Inteiros</title>
+</head>
+<body>
+    <script>
+
+        //Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem executadas (codificada da seguinte forma: 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação).O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos.
+
+        let numero1 = parseInt(prompt("Digite o primeiro número: "));
+        let numero2 = parseInt(prompt("Digite o segundo número: "));
+        let operacao = parseInt(prompt("Escolha entre: 1. Adição; 2. Subtração; 3. Divisão; 4. Multiplicação"));
+
+        if (operacao == 1) {
+            alert("Seu resultado é: " + numero1 + numero2)
+        }
+        if (operacao == 2) {
+            alert("Seu resultado é: " + numero1 - numero2)
+        }
+        if (operacao == 3) {
+            alert("Seu resultado é: " + numero1 / numero2)
+        }
+        if (operacao == 4) {
+            alert("Seu resultado é: " + numero1 * numero2)
+        }
+
+    </script>
+</body>
+</html>
